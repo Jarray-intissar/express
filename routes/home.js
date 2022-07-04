@@ -12,7 +12,8 @@ homeRouter.get("/", (req, res)=> {
     }
     else{res.render("close");}
 });
-
+homeRouter.get("/contact",(req, res)=>res.render("contact"));
+homeRouter.get("/product",(req, res)=>res.render("product"));
 // post
 // delete
 //update
